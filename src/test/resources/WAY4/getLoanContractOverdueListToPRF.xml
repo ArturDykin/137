@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetLoanBycontractFs_Input>
+<HeaderInfo>
+        RqUID="B719B223F2CA4bd6BCCEE314F7ACA081"
+        SessionId=""
+        Ipaddress="10.64.50.172"
+        ContextUserInfo="GUESTERM”
+        SystemTo="PRF"
+        RaType="GetLoanByContractFs_Input”
+        systemFrom="SBL_CL”
+        RaqTm="07/23/2021 17:32:59"
+        ContextId="1-F826W-204">
+        </HeaderInfo>
+<GetLoanBycontractFs>
+<RequestDate1>2021-67-23</RequestDate1>
+<ListofFINCORPAccount>
+    <FINCORPACcount>
+        <BranchCode>00040</BranchCode>
+        <CreditType></CreditType>
+        <CardNumber></CardNumber>
+        <CreditID>625/0040-0543842</CreditID>
+    </FINCORPACcount>
+</ListofFINCORPAccount>
+</GetLoanBycontractFs>
+        </GetLoanBycontractFs_Input>

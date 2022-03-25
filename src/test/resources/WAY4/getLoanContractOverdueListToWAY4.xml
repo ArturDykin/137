@@ -1,0 +1,24 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:asi="http://siebel.com/asi/">
+<soapenv:Header/>
+<soapenv:Body>
+<asi:GetLoanByContractFS_Input>
+    <asi:Headerinfo RqUID="B719B223F2CA4bd6BCCEE314F7ACA081" RqType="GetLoanByContractFS_Input" RqTm="07/23/2021
+    17:32:59" SystemFrom="SBL_CL" SystemTo="WAY" ContextUserlnfo="5574058" ContextId="1-F826W-204" IPAddress="10.64.50.172"
+    Sessionid=""/>
+    <asi:GetLoanByContractFS>
+        <asi:RequestDatel>?</asi:RequestDatel>
+        <asi:ListOfFINCORPAccount>
+        //or more repetitions:
+        <asi:FINCORPAccount>
+        <asi:BranchCode>00000</asi:BranchCode>
+        <asi:CreditID>625/0000-0246284</asi:CreditID>
+        //Optional:
+        <asi:CreditType>?</asi:CreditType>
+        //Optional:
+        <asi:CardNumber>4272300036678941</asi:CardNumber>
+        </asi:FINCORPAccount>
+        </asi:ListOfFINCORPAccount>
+        </asi:GetLoanByContractFS>
+        </asi:GetLoanByContractFS_Input>
+        </soapenv:Body>
+        </soapenv:Envelope>
