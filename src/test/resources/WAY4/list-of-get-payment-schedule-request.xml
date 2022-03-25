@@ -1,0 +1,29 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ns2="http://www.vtb24.ru/IT/CRM/EarlyRepaymentTypes/v1.0">
+    <soapenv:Body>
+        <ns2:GetPaymentSchedule_Input xmlns:ns2="http://www.vtb24.ru/IT/CRM/EarlyRepaymentTypes/v1.0">
+            <ns2:HeaderInfo RqUID="00000000000000000000000000000000" RqType="GetPaymentSchedule_Input"
+                            RqTm="05/12/2021 10:46:43" SystemFrom="SBL_FR" SystemTo="ULBS"
+                            ContextUserInfo="SPESIVTSEVDV" ContextId="3-9GZDXZGP"
+                            SessionId="2EDF2D90B2EE11ebADFE005056969EC6" IPAddress="172.21.27.92"/>
+            <ns2:ListOfGetPaymentSchedule>
+                <ns2:GetPaymentSchedule>
+                    <ns2:AgreementNumber>01-056</ns2:AgreementNumber>
+                    <ns2:DivisionID>00000</ns2:DivisionID>
+                    <ns2:LoanSystemCode>CFT2RL</ns2:LoanSystemCode>
+                    <ns2:AgreementType>КРЕДИТ</ns2:AgreementType>
+                    <ns2:CreateDate>01/20/2012 16:23:05</ns2:CreateDate>
+                    <ns2:RequestType>1</ns2:RequestType>
+                </ns2:GetPaymentSchedule>
+                <ns2:GetPaymentSchedule>
+                    <ns2:AgreementNumber>01-055</ns2:AgreementNumber>
+                    <ns2:DivisionID>00000</ns2:DivisionID>
+                    <ns2:LoanSystemCode>CFT2RL</ns2:LoanSystemCode>
+                    <ns2:AgreementType>КРЕДИТ</ns2:AgreementType>
+                    <ns2:CreateDate>01/20/2012 16:23:05</ns2:CreateDate>
+                    <ns2:RequestType>1</ns2:RequestType>
+                </ns2:GetPaymentSchedule>
+            </ns2:ListOfGetPaymentSchedule>
+        </ns2:GetPaymentSchedule_Input>
+    </soapenv:Body>
+</soapenv:Envelope>
