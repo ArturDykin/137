@@ -22,3 +22,25 @@
         </asi:GetLoanByContractFS_Input>
         </soapenv:Body>
         </soapenv:Envelope>
+
+
+<soapenv:Envelope
+xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:tem="http://tempuri.org/">
+<soapenv:Header/>
+<soapenv:Body>
+    <tem:pay>
+        <tem:merchantId>7507231</tem:merchantId>
+        <tem:branch>Licensed Branch Name</tem:branch>
+        <tem:alias>Service alias Name</tem:alias>
+        <tem:paymentId>merchants payment idetificator</tem:paymentId>
+        <tem:data>
+            <tem:param>
+                <tem:key>account</tem:key>
+                <tem:value>account cridentials</tem:value>
+            </tem:param>
+        </tem:data>
+        <tem:hash>?</tem:hash>
+    </tem:pay>
+</soapenv:Body>
+</soapenv:Envelope>
